@@ -12,7 +12,7 @@
             <div class="col-md-5">
                 <a href="{{url('article',[$post->id])}}">
                     @if($picture = $post->picture)
-                    <img class="img-responsive" src="{{url('uploads', $post->picture->uri)}}" alt="">
+                    <img class="img-responsiv" src="{{url('uploads', $post->picture->uri)}}" alt="">
                     @endif
                 </a>
             </div>
